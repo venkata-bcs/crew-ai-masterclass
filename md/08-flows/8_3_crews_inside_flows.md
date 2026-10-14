@@ -1,6 +1,6 @@
 # 8.3 Crews inside Flows
 
-[🏠 Home](../../README.md) · [⬅ 8.2 Routing & State](8_2_routing_and_state.md)
+[🏠 Home](../../README.md) · [⬅ 8.2 Routing & State](8_2_routing_and_state.md) · [9.1 Pattern: Single Agent ➡](../09-simple-patterns/9_1_single_agent.md)
 
 > **Module 8 · Flows** · 💻 Code: [8_3_crews_inside_flows.py](../../code/08-flows/8_3_crews_inside_flows.py)
 
@@ -110,4 +110,4 @@ Attempt 1 was 2 words over the limit → the gate sent feedback → attempt 2 pa
 
 ---
 
-[🏠 Home](../../README.md) · [⬅ 8.2 Routing & State](8_2_routing_and_state.md)
+[🏠 Home](../../README.md) · [⬅ 8.2 Routing & State](8_2_routing_and_state.md) · [9.1 Pattern: Single Agent ➡](../09-simple-patterns/9_1_single_agent.md)

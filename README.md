@@ -38,8 +38,11 @@ crew-ai-masterclass/
 ```mermaid
 flowchart LR
     M0["0️⃣ Getting<br/>Started"] --> M1["1️⃣ Agent<br/>Fundamentals"] --> M2["2️⃣ Multi-Agent<br/>Thinking"] --> M3["3️⃣ CrewAI<br/>Basics"] --> M4["4️⃣ Running<br/>Crews"]
-    M4 --> M5["5️⃣ Tools"] --> M6["6️⃣ Reliable<br/>Outputs"] --> M7["7️⃣ Advanced<br/>Crews"] --> M8["8️⃣ Flows"]
+    M4 --> M5["5️⃣ Tools"] --> M6["6️⃣ Reliable<br/>Outputs"] --> M7["7️⃣ Advanced<br/>Crews"] --> M8["8️⃣ Flows"] --> M9["9️⃣ Simple<br/>Patterns"]
+    M3 -. "short on time? jump to" .-> M9
 ```
+
+> **In a hurry?** After Module 3, try **[Module 9: Simple Patterns](#module-9-simple-patterns-problems--solutions)**: five tiny problem → solution examples (single agent, multi agent, parallel, human-in-the-loop, guardrails).
 
 ---
 
@@ -118,6 +121,27 @@ flowchart LR
 | 8.2 | [Routing & State](md/08-flows/8_2_routing_and_state.md) | [8_2_routing_and_state.py](code/08-flows/8_2_routing_and_state.py) | `@router`, typed state, `or_` |
 | 8.3 | [Crews inside Flows](md/08-flows/8_3_crews_inside_flows.md) | [8_3_crews_inside_flows.py](code/08-flows/8_3_crews_inside_flows.py) | Crews as steps + a quality gate that loops |
 
+### Module 9: Simple Patterns (problems & solutions)
+
+Small, everyday problems, each solved with one pattern. Short scripts, no extras.
+
+| # | Pattern | Code | The problem it solves |
+|---|---|---|---|
+| 9.1 | [Single Agent](md/09-simple-patterns/9_1_single_agent.md) | [9_1_single_agent.py](code/09-simple-patterns/9_1_single_agent.py) | Reply politely to an angry customer review |
+| 9.2 | [Multi Agent (a relay)](md/09-simple-patterns/9_2_multi_agent.md) | [9_2_multi_agent.py](code/09-simple-patterns/9_2_multi_agent.py) | Turn messy meeting notes into a clean team email |
+| 9.3 | [Parallel Agents](md/09-simple-patterns/9_3_parallel_agents.md) | [9_3_parallel_agents.py](code/09-simple-patterns/9_3_parallel_agents.py) | Get 3 expert opinions at once, then a go / no-go |
+| 9.4 | [Human in the Loop (HITL)](md/09-simple-patterns/9_4_human_in_the_loop.md) | [9_4_human_in_the_loop.py](code/09-simple-patterns/9_4_human_in_the_loop.py) | Don't send a customer email until a person approves it |
+| 9.5 | [Guardrails](md/09-simple-patterns/9_5_guardrails.md) | [9_5_guardrails.py](code/09-simple-patterns/9_5_guardrails.py) | Make sure a product description is short and shows the price |
+
+```mermaid
+flowchart LR
+    Q{"What does<br/>your job need?"} -- "one skill" --> P1["9.1 Single agent"]
+    Q -- "several skills, in order" --> P2["9.2 Multi agent"]
+    Q -- "independent opinions" --> P3["9.3 Parallel agents"]
+    Q -- "a person must approve" --> P4["9.4 Human in the loop"]
+    Q -- "rules code can check" --> P5["9.5 Guardrails"]
+```
+
 ---
 
 ## Quick start
@@ -151,11 +175,3 @@ Full details: [0.1 Setup & LLM Keys](md/00-getting-started/0_1_setup_and_keys.md
 | [topics/](topics/01-foundations.md) | Deep-dive reference notes (11 topics, incl. testing, deployment, LLM integration) |
 | [crew-ai.md](crew-ai.md) | Installation notes and the topic checklist |
 | [rag-building.md](rag-building.md) | Build a RAG pipeline (Postgres + Qdrant + local Ollama), with scripts in [scripts/](scripts/) |
-
-## References
-
-- DataCamp: [CrewAI tutorial](https://www.datacamp.com/tutorial/crew-ai)
-- CrewAI docs: <https://docs.crewai.com>
-- CrewAI on GitHub: <https://github.com/crewAIInc/crewAI>
-- LangChain: "Levels of autonomy in LLM applications" (image in [1.1](md/01-agent-fundamentals/1_1_llm_vs_agent.md))
-- Model Context Protocol: <https://modelcontextprotocol.io>
