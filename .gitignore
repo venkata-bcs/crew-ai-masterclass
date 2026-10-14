@@ -1,0 +1,8 @@
+# Secrets - never commit API keys
+settings.config
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
