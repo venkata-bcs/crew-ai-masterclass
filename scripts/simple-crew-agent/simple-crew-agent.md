@@ -1,5 +1,7 @@
 # Simple Crew Agent
 
+[🏠 Home](../../README.md)
+
 ## Objective
 
 **One-liner:** give it a country name, and one AI agent reads about that country online and writes a clean Markdown fact sheet for you.
@@ -187,3 +189,7 @@ A run takes about 30–60 seconds and makes 3 LLM calls.
 - Only the first 8,000 characters of the article are read (to keep calls fast and cheap), so later sections may be thin.
 - Quick facts are only as good as what Wikidata currently stores. For example, the USA run listed territory languages (Hawaiian, Samoan ...) but not English. Double-check surprising values.
 - The free NVIDIA tier occasionally slows down; `llm.py` uses a 180-second timeout per call.
+
+---
+
+[🏠 Home](../../README.md)

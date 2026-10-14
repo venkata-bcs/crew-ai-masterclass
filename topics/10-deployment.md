@@ -1,6 +1,6 @@
 # 10. Deployment & Production
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 ## Packaging a crew as a service
 
@@ -67,3 +67,7 @@ files or env-var overrides, not hardcoded branches in application code.
   execution rather than firing `kickoff_async` directly from every incoming
   request — keeps you in control of concurrency instead of the LLM
   provider's rate limiter deciding for you via failed requests.
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

@@ -1,6 +1,6 @@
 # 3. Tasks
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 ## Anatomy of a Task
 
@@ -106,3 +106,7 @@ and prompts for human feedback via stdin before the task is marked complete
 approval/edit step before anything is sent, published, or executed with
 real-world side effects. See the applied project idea in
 [11-applied-projects.md](11-applied-projects.md).
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

@@ -1,6 +1,6 @@
 # 7. Flows (event-driven orchestration)
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 ## `Flow` vs. `Crew`
 
@@ -103,3 +103,7 @@ Not every multi-crew idea needs a `Flow`. If the logic is genuinely linear
 (crew A's output always feeds crew B), just call `.kickoff()` on each crew
 in plain Python — a `Flow` earns its complexity when there's real branching,
 parallel fan-out/fan-in, or state that needs to survive across steps/pauses.
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

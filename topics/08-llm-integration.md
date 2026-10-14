@@ -1,6 +1,6 @@
 # 8. LLM Integration
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 ## Provider-agnostic LLM config
 
@@ -82,3 +82,7 @@ support fall back to CrewAI instructing the model in-prompt to emit JSON
 matching the schema, then parsing it — less reliable, worth wrapping in a
 retry/guardrail (see `guardrail` in [03-tasks.md](03-tasks.md)) when using
 smaller local models.
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

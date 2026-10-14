@@ -1,4 +1,7 @@
 # Crew AI tutorials
+
+[🏠 Home](README.md)
+
 > Venkata Bhattaram
 > github.com/v-bhattaram
 
@@ -116,3 +119,7 @@ python -m venv .venv
 - Official docs: docs.crewai.com
 - `crewai-tools` repo for the current built-in tool catalog
 - [rag-building.md](rag-building.md) — this repo's own RAG notes, useful as a knowledge/tool backend for crews
+
+---
+
+[🏠 Home](README.md)

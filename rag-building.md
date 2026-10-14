@@ -1,5 +1,7 @@
 # RAG over RDBMS Data — Process Flow Design
 
+[🏠 Home](README.md)
+
 Design only — no code. Goal: keep a Qdrant vector index in sync with data
 living in PostgreSQL, covering both the **initial load** (full backfill)
 and **ongoing deltas** (inserts/updates/deletes) as they land in the
@@ -290,3 +292,7 @@ by CrewAI across the run.
   (product catalog) end to end. The §3 delta-sync flow (insert/update/delete
   handling, watermarking) and the order-support document type are designed
   but not yet implemented — see §9.
+
+---
+
+[🏠 Home](README.md)

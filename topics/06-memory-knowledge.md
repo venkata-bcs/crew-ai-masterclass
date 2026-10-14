@@ -1,6 +1,6 @@
 # 6. Memory & Knowledge
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 CrewAI distinguishes **memory** (what an agent remembers about its own
 execution) from **knowledge** (external reference material you hand an
@@ -81,3 +81,7 @@ blue-green collection guidance in
 [rag-building.md §5](../rag-building.md#5-qdrant-collection-design), which
 applies to CrewAI's own memory stores just as much as to a hand-built
 Qdrant collection).
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

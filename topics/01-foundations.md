@@ -1,6 +1,6 @@
 # 1. Foundations
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 ## What is CrewAI vs. LangChain/LangGraph/AutoGen
 
@@ -103,3 +103,7 @@ because there's exactly one agent and the tool wiring is code-driven anyway.
 
 Default to YAML once a project has 3+ agents or you want non-code
 iteration on prompts; stay in Python for small/dynamic setups.
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

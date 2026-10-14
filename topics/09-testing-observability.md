@@ -1,6 +1,6 @@
 # 9. Testing, Debugging & Observability
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 ## `crewai test`
 
@@ -72,3 +72,7 @@ currently disabling — not something layered on top of it.
   models without reliable native structured output — add a `guardrail`
   (see [03-tasks.md](03-tasks.md)) that validates and triggers a retry with
   feedback instead of letting a bad parse propagate downstream.
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

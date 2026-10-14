@@ -1,6 +1,6 @@
 # 4. Tools
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 ## Built-in tools (`crewai-tools`)
 
@@ -118,3 +118,7 @@ Postgres/Qdrant RAG pipeline in [rag-building.md](../rag-building.md) is
 ever stood up as its own MCP server, `03_chat_with_rag.py`'s hand-written
 `product_catalog_search` tool could be replaced by an `MCPServerAdapter`
 connection — same agent, tool sourced externally instead of in-process.
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

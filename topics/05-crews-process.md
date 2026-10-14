@@ -1,6 +1,6 @@
 # 5. Crews & Process
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 ## `Process.sequential`
 
@@ -86,3 +86,7 @@ example gets filled per-run rather than requiring a new Agent per topic.
 
 Both are the hook points for wiring in custom observability without a full
 tracing integration (see [09-testing-observability.md](09-testing-observability.md)).
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

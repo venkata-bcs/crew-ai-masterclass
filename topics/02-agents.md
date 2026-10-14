@@ -1,6 +1,6 @@
 # 2. Agents
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 ## Anatomy of an Agent
 
@@ -89,3 +89,7 @@ providers/models without native structured-output support (relevant for
 smaller local Ollama models, which don't always follow schema instructions
 as reliably as hosted frontier models — validate output_pydantic results in
 that case rather than assuming it always parses).
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

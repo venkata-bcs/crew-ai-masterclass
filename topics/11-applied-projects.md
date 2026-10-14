@@ -1,6 +1,6 @@
 # 11. Applied Projects (build to learn)
 
-[← back to crew-ai.md](../crew-ai.md)
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)
 
 Each project below names the topics it exercises so you can tell which
 gaps it's meant to close. Build in order — later projects assume the
@@ -91,3 +91,7 @@ instead of eyeballing it.
 - Acceptance: you can point at a specific number (score, token count,
   latency) that changed as a result of the prompt edit, not just a
   subjective impression.
+
+---
+
+[🏠 Home](../README.md) · [← back to crew-ai.md](../crew-ai.md)

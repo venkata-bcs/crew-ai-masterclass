@@ -1,5 +1,7 @@
 # CrewAI Basic Examples
 
+[🏠 Home](../../README.md)
+
 Ten **single-file** CrewAI programs, from "hello world" to Flows. Each file:
 
 - is **one `.py` file**, with nothing to import from the rest of the repo;
@@ -257,3 +259,7 @@ NVIDIA_MODEL='nvidia/nemotron-3-super-120b-a12b'
 The venv uses Python 3.13 (CrewAI doesn't install on 3.14). See [../simple-crew-agent/simple-crew-agent.md](../simple-crew-agent/simple-crew-agent.md#how-to-run) for the setup commands.
 
 Each example takes roughly 5–60 seconds. Files 02, 04 and 07 print the agent's thinking (`verbose=True`). Look for the *Thought / Action / Observation* steps, i.e. the scratchpad.
+
+---
+
+[🏠 Home](../../README.md)
